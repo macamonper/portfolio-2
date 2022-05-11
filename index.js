@@ -1,7 +1,6 @@
 const menuBtn = document.querySelector(".mobile-menu");
 const burgerMenu = document.querySelector(".burger-menu");
 const aside = document.querySelector("aside");
-const email= document.getElementById("email").value
 
 let menuOpen = false;
 menuBtn.addEventListener("click", () => {
