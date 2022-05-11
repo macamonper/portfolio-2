@@ -54,7 +54,9 @@ footer {
   box-shadow: #30343f89 0px 1px 15px;
 }
 
-
+.hidden{
+  visibility: hidden;
+}
 @media (min-width: 37em) {
   aside {
     display: none;
