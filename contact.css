@@ -20,6 +20,7 @@ form h3 {
     #f49393
   );
   -webkit-background-clip: text;
+  background-clip: text;
   animation: animate 6s linear infinite;
   background-size: 500%;
 }

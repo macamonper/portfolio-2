@@ -14,7 +14,7 @@
 #name {
   font-size: 0.6rem;
   position: absolute;
-  right: 60%;
+  left:2em;
   top: 10em;
   width: 11em;
 }
@@ -22,8 +22,8 @@
 #photoshop {
   font-size: 0.4rem;
   position: absolute;
-  right: 0%;
-  top: 40%;
+  right: 1em;
+  top: 32em;
   order: 2;
 }
 .colour {
@@ -41,7 +41,7 @@
 #wp {
   font-size: 0.5rem;
   position: absolute;
-  right: 63%;
+  left: 1em;
   top: 32em;
   order: 2;
 }
@@ -124,9 +124,157 @@
 
 /*MEDIA QUERY*/
 
-@media (min-width: 37em) {
-  .circle {
+
+
+
+
+
+
+@media (min-width: 23em ) and (max-width:26em) {
+ .circle {
+    width: 12em;
+    height: 12em;
+  }
+
+  #name {
+  font-size: 0.7rem;
+  top:7em
+
+}
+  #photoshop {
+  font-size: 0.5rem;
+  top: 25em;
+}
+#wp {
+  font-size: 0.5rem;
+}
+}
+@media (min-width: 26em ){
+    .circle {
+    width: 15em;
+    height: 15em;
+  }
+
+  #name {
+  font-size: 0.8rem;
+  top: 8em;
+}
+  #photoshop {
+  font-size: 0.6rem;
+  top: 25em;
+}
+#wp {
+  font-size: 0.6rem;
+}
+}
+@media( min-width:32.5em){
+  #name{
+    font-size: 0.9rem;
+    top:6em;
+    left: 2em;
+  }
+  #photoshop{
+    top:19em;
+    right: 1em;
+    font-size: 0.7rem;
+  }
+  #wp{
+    top:29em;
+    left: 3em;
+    font-size: 0.7rem;
+  }
+
+}
+@media(min-width:37em){
+  #name{
+    left: 4em;
+
+  }
+  #photoshop{
+    right: 3em;
+  }
+  #wp{
+top: 26em;
+left: 3em;
+  }
+}
+@media(min-width:39em){
+   #name{
+    left: 5em;
+
+  }
+  #photoshop{
+    right: 4em;
+  }
+  #wp{
+left: 5em;
+  }
+}
+
+@media (min-width:42em){
+  .circle{
+    width: 25em;
+    height: 25em;
+  }
+  #name{
+    font-size: 1.1rem;
+    top:4em;
+    left: 8em;
+  }
+  #photoshop{
+    font-size: 1rem;
+    top:19em;
+    right:3em
+  }
+  #wp{
+    font-size: 0.9rem;
+    top: 30em;
+  }
+}
+
+@media(min-width:62em) {
+ 
+  .circle{
     width: 20em;
     height: 20em;
   }
+  #name{
+    top: 3em;
+    left: 20em;
+    font-size: 1.1rem;
+  }
+
+  #photoshop{
+
+    font-size: 1rem;
+    top:15em;
+    right: 17em;
+
+  }
+  #wp{
+    font-size: 0.8rem;
+    top: 30em;
+    left: 27em;
+  }
+
+}
+@media(min-width: 90em){
+  .circle{
+    width: 25em;
+    height: 25em;
+  }
+  #name{
+    top:8%;
+    left: 28%;
+    font-size: 1.3rem;
+  }
+  #photoshop{
+    right: 22%;
+    font-size: 1.1rem;
+  }
+  #wp{
+    font-size: 1rem;
+    right: 60%;
+  }
+
 }
