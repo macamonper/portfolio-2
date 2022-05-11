@@ -1,0 +1,132 @@
+.card {
+  background: rgba(255, 255, 255, 0.176);
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 0px 10px 5px #9130be32;
+  animation: glowShadow 1.5s linear infinite alternate;
+  height: fit-content;
+  padding: 0.5em;
+}
+
+#name {
+  font-size: 0.6rem;
+  position: absolute;
+  right: 60%;
+  top: 10em;
+  width: 11em;
+}
+
+#photoshop {
+  font-size: 0.4rem;
+  position: absolute;
+  right: 0%;
+  top: 40%;
+  order: 2;
+}
+.colour {
+  object-fit: contain;
+  height: 2em;
+  width: 1.5em;
+  margin-right: 0.3em;
+}
+.icons {
+  object-fit: contain;
+  height: 2.5em;
+  width: 2.5em;
+}
+
+#wp {
+  font-size: 0.5rem;
+  position: absolute;
+  right: 63%;
+  top: 32em;
+  order: 2;
+}
+
+.floating {
+  animation: floating 4s ease-in-out infinite;
+}
+
+.floating-box-content {
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+}
+
+.maca {
+  font-weight: 700;
+}
+
+.circle {
+  height: 10em;
+  width: 10em;
+  order: 1;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 5px #747de8;
+  animation: glowShadow 1.5s linear infinite alternate;
+  background-image: url("./images/my-photo.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#dev {
+  color: transparent;
+  font-size: 1.7rem;
+  padding-top: 1.5em;
+  text-align: center;
+
+  background-image: linear-gradient(
+    to left,
+    #ffbe0b,
+    #fb075c,
+    #fb07d6,
+    #f8d9d9,
+    rgb(250, 239, 239)
+  );
+  -webkit-background-clip: text;
+  animation: animate 6s linear infinite;
+  background-size: 500%;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0 100%;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+
+@keyframes glowShadow {
+  to {
+    box-shadow: 0px 0px 10px 5px #ed539b;
+  }
+}
+
+/*MEDIA QUERY*/
+
+@media (min-width: 37em) {
+  .circle {
+    width: 20em;
+    height: 20em;
+  }
+}

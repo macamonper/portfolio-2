@@ -1,0 +1,68 @@
+.project-card {
+  
+  width: 18em;
+  height: 10em;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5em;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(62, 59, 59, 0.44);
+  backdrop-filter: blur(5.3px);
+  -webkit-backdrop-filter: blur(5.3px);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  transition: transform .5s ease-in-out;
+
+}
+
+.project-card img {
+  position: relative;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  width: 100%;
+  opacity: 85%;
+  object-fit: cover;
+}
+.project-card:hover {
+  transform: scale(1.05);
+}
+.project-card:hover img {
+  opacity: 100%;
+}
+
+.project-card h3 {
+  font-size: 2rem;
+  color: transparent;
+  background-image: linear-gradient(
+    to left,
+    #ec9d48,
+    #25b42f,
+    #7ccdf0,
+    #f49393
+  );
+  -webkit-background-clip: text;
+  animation: animate 6s linear infinite;
+  background-size: 500%;
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+top: 35%;
+text-align: center;}
+
+.font-change {
+  background-image: linear-gradient(
+    to left,
+    #ffbe0b,
+    #fb075c,
+    #fb07d6,
+    #5f5050,
+    rgb(87, 73, 95)
+  ) !important;
+}

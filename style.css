@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.row {
+  display: flex;
+}
+.align-right {
+  justify-content: right;
+}
+.align-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
+ul > li {
+  padding: 1em;
+  font-size: 1.2rem;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+.hidden {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+}

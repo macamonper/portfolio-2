@@ -1,0 +1,96 @@
+
+.divider {
+  height: 0.5px;
+  background: #000;
+  background: -webkit-linear-gradient(
+    left,
+    rgb(171, 48, 128) 0%,
+    rgb(164, 14, 178) 50%,
+    rgb(255, 255, 255) 100%
+  );
+}
+.divider.light {
+  background: rgb(156, 33, 80);
+  background: -webkit-linear-gradient(
+    left,
+    rgb(250, 239, 239) #f8d9d9,
+    #fb07d6,
+    #fb075c,
+    #ffbe0b,
+    50%,
+    rgb(167, 34, 34) 100%
+  );
+}
+
+.divider.light:before {
+  position: relative;
+  float: left;
+  background: linear-gradient(
+    to right,
+    rgb(250, 239, 239) #f8d9d9,
+    #fb07d6,
+    #fb075c,
+    #ffbe0b,
+    50%
+  );
+  margin-top: 2px;
+  width: 50%;
+  height: 0.5px;
+  content: "";
+}
+
+.divider.light:after {
+  position: relative;
+  float: right;
+  background: linear-gradient(
+    to left,
+    #ffbe0b,
+    #fb075c,
+    #fb07d6,
+    #f8d9d9,
+    rgb(250, 239, 239) 50%
+  );
+  margin-top: 2px;
+  width: 50%;
+  height: 0.5px;
+  content: "";
+}
+
+.divider:before {
+  position: relative;
+  float: left;
+  background: linear-gradient(
+    to right,
+    #ffbe0b,
+    #fb075c,
+    #fb07d6,
+    #f8d9d9,
+    rgb(250, 239, 239) 50%
+  );
+  margin-top: 2px;
+  width: 50%;
+  height: 0.5px;
+  content: "";
+}
+
+.divider:after {
+  position: relative;
+  float: right;
+  background: linear-gradient(
+    to left,
+    #ffbe0b,
+    #fb075c,
+    #fb07d6,
+    #f8d9d9,
+    rgb(250, 239, 239) 50%
+  );
+  margin-top: 2px;
+  width: 50%;
+  height: 0.5px;
+  content: "";
+}
+.width85 {
+  width: 85%;
+  margin: 0px auto;
+  padding-top: 1em;
+}
