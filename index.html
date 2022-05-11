@@ -211,7 +211,7 @@
     <section id="contact">
 
       <div class="form-container">
-        <form onsubmit="sendEmail(); reset();" >
+        <form onsubmit="sendEmail(); reset();return false" >
           <h3>Get in touch!</h3>
           <input type="text" name="name" id="Your name" placeholder="Your name" required>
           <input type="email" name="email" id="email" placeholder="Your email" required>
@@ -230,6 +230,27 @@
   <script src="index.js"></script>
   <script type="text/javascript" src="vanilla-tilt.js"></script>
   <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+ 
+
+const sendEmail = () => {
+Email.send({
+  SecureToken: "1fe58c20-8c18-4962-a8c3-82bbf33d9028",
+  To: "macamonper@gmail.com",
+  From: document.getElementById("email").value,
+  Subject: "New contact from portfolio",
+  Body: "And this is the body",
+  Attachments: [
+    {
+      name: "smtpjs.png",
+      path: "https://networkprogramming.files.wordpress.com/2017/11/smtpjs.png",
+    },
+  ],
+}).then((message) => alert(message));
+
+
+};
+  </script>
 
 </body>
 
