@@ -231,13 +231,12 @@
   <script type="text/javascript" src="vanilla-tilt.js"></script>
   <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script>
- 
 
 const sendEmail = () => {
 Email.send({
   SecureToken: "93DA877C340B85E2F744B5CB79716C0CE5AC",
    To : 'macamonper@gmail.com',
-    From : "you@isp.com",
+    From : document.getElementById("email").value,
     Subject : "This is the subject",
     Body : "And this is the body"
 }).then(
