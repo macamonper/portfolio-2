@@ -23,7 +23,7 @@ menuBtn.addEventListener("click", () => {
 
 const sendEmail = () => {
 Email.send({
-  SecureToken: "af148e3f-1750-4a7f-b94b-a62196f38b92",
+  SecureToken: "1fe58c20-8c18-4962-a8c3-82bbf33d9028",
   To: "macamonper@gmail.com",
   From: email,
   Subject: "New contact from portfolio",

@@ -211,7 +211,7 @@
     <section id="contact">
 
       <div class="form-container">
-        <form onsubmit="sendEmail(); reset();return false" >
+        <form onsubmit="sendEmail(); reset();" >
           <h3>Get in touch!</h3>
           <input type="text" name="name" id="Your name" placeholder="Your name" required>
           <input type="email" name="email" id="email" placeholder="Your email" required>
@@ -229,6 +229,7 @@
 
   <script src="index.js"></script>
   <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
 
 </body>
 
