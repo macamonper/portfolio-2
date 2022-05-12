@@ -37,199 +37,191 @@
       <ul class="row align-right ul">
         <li><a href="#me" class="menu-item">About me</a></li>
         <li><a href="#knowledges" class="menu-item">Knowledges</a></li>
-        <li><a href="#my-projects"class="menu-item">Projects</a></li>
-        <li><a href="#contact-form"class="menu-item">Contact</a></li>
+        <li><a href="#my-projects" class="menu-item">Projects</a></li>
+        <li><a href="#contact-form" class="menu-item">Contact</a></li>
       </ul>
     </nav>
   </header>
   <aside>
-    <div class="row align-right">
-      <div class="mobile-menu">
-        <div class="menu-btn-burger"></div>
+    <div id="menu">
+      <div id="menu-bar" onclick="menuOnClick()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
       </div>
-    </div>
-
-    <div class=" burger-menu row align-center hidden">
-      <nav>
-        <ul class="ul a">
-          <li>About me</li>
-          <li>Knowledges</li>
-          <li>Projects</li>
-          <li>Contact</li>
-        </ul>
-
-        <ul class="row ul ">
-          <li>
-            <a href="https://www.linkedin.com/in/macarena-montserrat-perez/" target="_blank" rel="noopener noreferrer"
-              aria-label="Linkedin"><i class="fab fa-linkedin"></i></a>
-          </li>
-          <li>
-            <a href="https://github.com/macamonper" target="_blank" rel="noopener noreferrer" aria-label="Github"><i
-                class="fab fa-github"></i></a>
-          </li>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="#me">About me</a></li>
+          <li><a href="#knowledges">Knowledges</a></li>
+          <li><a href="#my-projects">Projects</a></li>
+          <li><a href="#contact-form">Contact</a></li>
         </ul>
       </nav>
     </div>
   </aside>
-
+  <div class="menu-bg" id="menu-bg"></div>
   <main>
 
     <section>
       <a id="me">
-      <div id="about-me">
+        <div id="about-me">
 
-        <div class=" card floating column-placement row align-items-center " id="name">
-          <img src="./images/girl.png" class="icons">
-          <h3 class="floating-box-content ">Hi! I am <span class="maca">Maca</span></h1>
+          <div class=" card floating column-placement row align-items-center " id="name">
+            <img src="./images/girl.png" class="icons">
+            <h3 class="floating-box-content ">Hi! I am <span class="maca">Maca</span></h1>
+          </div>
+
+          <div class=" card floating row align-items-center" id="photoshop">
+            <img src="./images/colour.png" class="colour">
+            <h3 class="floating-box-content">Photoshop designer </h1>
+          </div>
+
+          <div class=" card floating row align-items-center" id="wp">
+            <img src="./images/wp.png" class="icons">
+
+            <h3 class="floating-box-content">Wordpress Developer</h1>
+          </div>
+
+          <div class="circle">
+          </div>
         </div>
-
-        <div class=" card floating row align-items-center" id="photoshop">
-          <img src="./images/colour.png" class="colour">
-          <h3 class="floating-box-content">Photoshop designer </h1>
-        </div>
-
-        <div class=" card floating row align-items-center" id="wp">
-          <img src="./images/wp.png" class="icons">
-
-          <h3 class="floating-box-content">Wordpress Developer</h1>
-        </div>
-
-        <div class="circle">
-        </div>
-      </div>
-      <h1 id="dev"> React / Front-End Developer</h1>
+        <h1 id="dev"> React / Front-End Developer</h1>
     </section>
+
+    </a>
 
     <div class="width85">
       <div class="divider light">
       </div>
     </div>
-    </a>
 
     <section id="knowledge">
-<a id="knowledges">
-      <h2>Things I know</h2>
+      <a id="knowledges">
+        <h2>Things I know</h2>
 
-      <div class="section-container">
-        <div class="card-morph " data-tilt>
-          <span class="iconify" data-icon="vscode-icons:file-type-html" style="color: #096484;"></span>
-          <h3 class="fs">HTML</h3>
+        <div class="section-container">
+          <div class="card-morph " data-tilt>
+            <span class="iconify" data-icon="vscode-icons:file-type-html" style="color: #096484;"></span>
+            <h3 class="fs">HTML</h3>
 
+          </div>
+          <div class="card-morph" data-tilt>
+            <span class="iconify" data-icon="vscode-icons:file-type-css" style="color: #096484;"></span>
+            <h3 class="fs">CSS 3</h3>
+
+          </div>
+          <div class="card-morph" data-tilt>
+            <span class="iconify" data-icon="vscode-icons:file-type-js-official" style="color: #096484;"></span>
+            <h3 class="fs">JS</h3>
+
+          </div>
+          <div class="card-morph" data-tilt>
+            <span class="iconify" data-icon="logos:react" style="color: #f1502f;"></span>
+            <h3 class="fs">REACT</h3>
+          </div>
+
+
+          <div class="card-morph" data-tilt>
+            <span class="iconify" data-icon="bxl:git" style="color: #f1502f;"></span>
+            <h3 class="fs">GIT</h3>
+
+          </div>
+          <div class="card-morph" data-tilt>
+            <span class="iconify" data-icon="logos:sass" style="color: #f1502f;"></span>
+            <h3 class="fs">SASS</h3>
+
+          </div>
+          <div class="card-morph" data-tilt>
+            <span class="iconify" data-icon="logos:material-ui"></span>
+            <h3 class="fs">MUI</h3>
+
+          </div>
+          <div class="card-morph" data-tilt>
+            <span class="iconify" data-icon="logos:bulma" style="color: #f1502f;"></span>
+            <h3 class="fs">BULMA</h3>
+          </div>
+
+          <div class="card-morph" data-tilt>
+            <span class="iconify" data-icon="brandico:wordpress" style="color: #096484;"></span>
+            <h3 class="fs-wp">WORDPRESS</h3>
+
+          </div>
         </div>
-        <div class="card-morph" data-tilt>
-          <span class="iconify" data-icon="vscode-icons:file-type-css" style="color: #096484;"></span>
-          <h3 class="fs">CSS 3</h3>
-
-        </div>
-        <div class="card-morph" data-tilt>
-          <span class="iconify" data-icon="vscode-icons:file-type-js-official" style="color: #096484;"></span>
-          <h3 class="fs">JS</h3>
-
-        </div>
-        <div class="card-morph" data-tilt>
-          <span class="iconify" data-icon="logos:react" style="color: #f1502f;"></span>
-          <h3 class="fs">REACT</h3>
-        </div>
-
-
-        <div class="card-morph" data-tilt>
-          <span class="iconify" data-icon="bxl:git" style="color: #f1502f;"></span>
-          <h3 class="fs">GIT</h3>
-
-        </div>
-        <div class="card-morph" data-tilt>
-          <span class="iconify" data-icon="logos:sass" style="color: #f1502f;"></span>
-          <h3 class="fs">SASS</h3>
-
-        </div>
-        <div class="card-morph" data-tilt>
-          <span class="iconify" data-icon="logos:material-ui"></span>
-          <h3 class="fs">MUI</h3>
-
-        </div>
-        <div class="card-morph" data-tilt>
-          <span class="iconify" data-icon="logos:bulma" style="color: #f1502f;"></span>
-          <h3 class="fs">BULMA</h3>
-        </div>
-
-        <div class="card-morph" data-tilt>
-          <span class="iconify" data-icon="brandico:wordpress" style="color: #096484;"></span>
-          <h3 class="fs-wp">WORDPRESS</h3>
-
-        </div>
-      </div>
       </a>
 
     </section>
 
     <section id="projects">
-<a id="my-projects">
-      <h2>Things I do</h2>
+      <a id="my-projects">
+        <h2>Things I do</h2>
 
-      <div class="section-container">
-        <div class="project-card">
-          <a href="https://portfoliomacarena.netlify.app" target="_blank" rel="noopener noreferrer">
+        <div class="section-container">
+          <div class="project-card">
+            <a href="https://portfoliomacarena.netlify.app" target="_blank" rel="noopener noreferrer">
 
-            <img src="./images/Portfolio.png" alt="Portfolio">
+              <img src="./images/Portfolio.png" alt="Portfolio">
 
-            <h3>Portfolio</h3>
-          </a>
+              <h3>Portfolio</h3>
+            </a>
 
-        </div>
-        <div class="project-card">
-          <a href="https://editordememes.netlify.app" target="_blank" rel="noopener noreferrer">
-            <img src="./images/Editor-de-memes.png" alt="meme Generator">
-            <h3 class="font-change">Meme Generator</h3>
-          </a>
-        </div>
-        <div class="project-card">
-          <a href="https://macamonper.github.io/ahorrADAs/" target="_blank" rel="noopener noreferrer">
-            <img src="./images/AhorrADAs.png" alt="ahorradas">
-            <h3>AhorrADAs</h3>
-          </a>
-        </div>
-        <div class="project-card">
-          <a href="https://macamonper.github.io/mercadito/" target="_blank" rel="noopener noreferrer">
-            <img src="./images/Mercadito-Libre.png" alt="mercadito libre">
-            <h3 class="font-change">Mercadito Libre</h3>
-          </a>
-        </div>
-        <div class="project-card">
-          <a href="https://wikimoviesandseries.netlify.app" target="_blank" rel="noopener noreferrer">
-            <img src="./images/Wiki-Movies.png" alt="Wiki-Movies">
+          </div>
+          <div class="project-card">
+            <a href="https://editordememes.netlify.app" target="_blank" rel="noopener noreferrer">
+              <img src="./images/Editor-de-memes.png" alt="meme Generator">
+              <h3 class="font-change">Meme Generator</h3>
+            </a>
+          </div>
+          <div class="project-card">
+            <a href="https://macamonper.github.io/ahorrADAs/" target="_blank" rel="noopener noreferrer">
+              <img src="./images/AhorrADAs.png" alt="ahorradas">
+              <h3>AhorrADAs</h3>
+            </a>
+          </div>
+          <div class="project-card">
+            <a href="https://macamonper.github.io/mercadito/" target="_blank" rel="noopener noreferrer">
+              <img src="./images/Mercadito-Libre.png" alt="mercadito libre">
+              <h3 class="font-change">Mercadito Libre</h3>
+            </a>
+          </div>
+          <div class="project-card">
+            <a href="https://wikimoviesandseries.netlify.app" target="_blank" rel="noopener noreferrer">
+              <img src="./images/Wiki-Movies.png" alt="Wiki-Movies">
 
-            <h3>Wiki Movies</h3>
-          </a>
-        </div>
-        <div class="project-card">
-          <a href="https://mobie.cl" target="_blank" rel="noopener noreferrer">
-            <img src="./images/Mobie.png" alt="mobie">
+              <h3>Wiki Movies</h3>
+            </a>
+          </div>
+          <div class="project-card">
+            <a href="https://mobie.cl" target="_blank" rel="noopener noreferrer">
+              <img src="./images/Mobie.png" alt="mobie">
 
-            <h3 class="font-change">Mobie</h3>
-          </a>
+              <h3 class="font-change">Mobie</h3>
+            </a>
+          </div>
         </div>
-      </div>
-    </a>
+      </a>
 
     </section>
+
+
     <section id="contact">
 
       <div class="form-container">
-        <a id="contact-form">
-<form action="https://formsubmit.co/3d995fd72d9cddab530ad6c81cc0358e" method="POST">
-          <h3>Get in touch!</h3>
+        <form action="https://formsubmit.co/3d995fd72d9cddab530ad6c81cc0358e" method="POST">
+          <a id="contact-form">
+            Get in touch! </a>
+
           <input class="hidden" type="text" name="_honey" style="display:none">
           <input type="text" name="name" id="Your name" placeholder="Your name" required>
           <input type="email" name="email" id="email" placeholder="Your email" required>
-      
+
           <input type="text" name="phone" id="phone" placeholder="Your phone" required>
-          <textarea  name ="message" id="message" rows="4"  placeholder="Let's talk!"></textarea>
+          <textarea name="message" id="message" rows="4" placeholder="Let's talk!"></textarea>
           <button type="submit">Send</button>
           <input type="hidden" name="_next" value="https://macamonper.netlify.app">
-          <input type="hidden" name="_autoresponse" value="Thanks for getting in touch with me! I will be responding your email as soon as possible.Thanks! Macarena">
+          <input type="hidden" name="_autoresponse"
+            value="Thanks for getting in touch with me! I will be responding your email as soon as possible.Thanks! Macarena">
 
         </form>
-        </a>
       </div>
 
     </section>

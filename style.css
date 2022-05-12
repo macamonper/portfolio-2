@@ -7,12 +7,12 @@ html:focus-within {
   scroll-behavior: smooth;
 }
 
-.menu-item{
+.menu-item {
   text-decoration: none;
   font-weight: bold;
   color: #fff;
 }
-.menu-item:hover{
+.menu-item:hover {
   color: transparent;
   background-image: linear-gradient(
     to left,
@@ -21,10 +21,8 @@ html:focus-within {
     rgb(250, 239, 239)
   );
   -webkit-background-clip: text;
-    background-clip: text;
-
-  background-size: 2em
-
+  background-clip: text;
+  background-size: 2em;
 }
 
 input,

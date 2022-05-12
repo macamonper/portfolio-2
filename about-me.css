@@ -14,8 +14,8 @@
 #name {
   font-size: 0.6rem;
   position: absolute;
-  left:2em;
-  top: 10em;
+  left: 2em;
+  top: 5em;
   width: 11em;
 }
 
@@ -23,7 +23,7 @@
   font-size: 0.4rem;
   position: absolute;
   right: 1em;
-  top: 32em;
+  top: 23em;
   order: 2;
 }
 .colour {
@@ -42,7 +42,7 @@
   font-size: 0.5rem;
   position: absolute;
   left: 1em;
-  top: 32em;
+  top: 25em;
   order: 2;
 }
 
@@ -74,8 +74,9 @@
 }
 
 #dev {
+  width: 95%;
   color: transparent;
-  font-size: 1.7rem;
+  font-size: 2rem;
   padding-top: 1.5em;
   text-align: center;
 
@@ -124,157 +125,143 @@
 
 /*MEDIA QUERY*/
 
-
-
-
-
-
-
-@media (min-width: 23em ) and (max-width:26em) {
- .circle {
+@media (min-width: 23em) and (max-width: 26em) {
+  .circle {
     width: 12em;
     height: 12em;
   }
 
   #name {
-  font-size: 0.7rem;
-  top:7em
-
-}
+    font-size: 0.7rem;
+    top: 3em;
+  }
   #photoshop {
-  font-size: 0.5rem;
-  top: 25em;
+    font-size: 0.5rem;
+    top: 20em;
+  }
+  #wp {
+    font-size: 0.5rem;
+  }
 }
-#wp {
-  font-size: 0.5rem;
-}
-}
-@media (min-width: 26em ){
-    .circle {
+@media (min-width: 26em) {
+  .circle {
     width: 15em;
     height: 15em;
   }
 
   #name {
-  font-size: 0.8rem;
-  top: 8em;
-}
+    font-size: 0.8rem;
+    top: 2em;
+  }
   #photoshop {
-  font-size: 0.6rem;
-  top: 25em;
+    font-size: 0.6rem;
+    top: 20em;
+  }
+  #wp {
+    font-size: 0.6rem;
+  }
 }
-#wp {
-  font-size: 0.6rem;
-}
-}
-@media( min-width:32.5em){
-  #name{
+@media (min-width: 32.5em) {
+  #name {
     font-size: 0.9rem;
-    top:6em;
+    top: 2em;
     left: 2em;
   }
-  #photoshop{
-    top:19em;
+  #photoshop {
+    top: 15em;
     right: 1em;
     font-size: 0.7rem;
   }
-  #wp{
-    top:29em;
+  #wp {
+    top: 23em;
     left: 3em;
     font-size: 0.7rem;
   }
-
 }
-@media(min-width:37em){
-  #name{
+@media (min-width: 37em) {
+  #name {
+    top:5em;
     left: 4em;
-
   }
-  #photoshop{
+  #photoshop {
     right: 3em;
   }
-  #wp{
-top: 26em;
-left: 3em;
+  #wp {
+    top: 26em;
+    left: 3em;
   }
 }
-@media(min-width:39em){
-   #name{
+@media (min-width: 39em) {
+  #name {
     left: 5em;
-
   }
-  #photoshop{
+  #photoshop {
     right: 4em;
   }
-  #wp{
-left: 5em;
+  #wp {
+    left: 5em;
   }
 }
 
-@media (min-width:42em){
-  .circle{
+@media (min-width: 42em) {
+  .circle {
     width: 25em;
     height: 25em;
   }
-  #name{
+  #name {
     font-size: 1.1rem;
-    top:4em;
+    top: 4em;
     left: 8em;
   }
-  #photoshop{
+  #photoshop {
     font-size: 1rem;
-    top:19em;
-    right:3em
+    top: 19em;
+    right: 3em;
   }
-  #wp{
+  #wp {
     font-size: 0.9rem;
     top: 30em;
   }
 }
 
-@media(min-width:62em) {
- 
-  .circle{
+@media (min-width: 62em) {
+  .circle {
     width: 20em;
     height: 20em;
   }
-  #name{
+  #name {
     top: 3em;
     left: 20em;
     font-size: 1.1rem;
   }
 
-  #photoshop{
-
+  #photoshop {
     font-size: 1rem;
-    top:15em;
+    top: 15em;
     right: 17em;
-
   }
-  #wp{
+  #wp {
     font-size: 0.8rem;
     top: 30em;
     left: 27em;
   }
-
 }
-@media(min-width: 90em){
-  .circle{
+@media (min-width: 90em) {
+  .circle {
     width: 25em;
     height: 25em;
   }
-  #name{
-    top:8%;
+  #name {
+    top: 8%;
     left: 28%;
     font-size: 1.3rem;
   }
-  #photoshop{
+  #photoshop {
     right: 22%;
     font-size: 1.1rem;
   }
-  #wp{
+  #wp {
     font-size: 1rem;
     right: 60%;
   }
-
 }

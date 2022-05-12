@@ -1,50 +1,93 @@
-.mobile-menu {
+#menu {
+  z-index: 4;
+}
 
-  display: flex;
-  justify-content: right;
-  width: 30px;
-  height: 3px;
+#menu-bar {
+  width: 2em;
+  height: 3em;
+  margin: 2em 0 1em 6em;
   cursor: pointer;
-  transition: all .5s ease-in-out;
-  margin: 1em;
 }
-.menu-btn-burger {
-  width: 30px;
-  height: 2px;
-  background: #fff;
+
+.bar {
+  height: 0.3em;
+  width: 100%;
+  background-color: #dc059c;
+  display: block;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(255,101,47,.2);
-  transition: all .5s ease-in-out;
+  transition: 0.3s ease;
 }
-.menu-btn-burger::before,
-.menu-btn-burger::after {
-  content: '';
-  position: absolute;
-  width: 30px;
-  height: 2px;
-  background: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(255,101,47,.2);
-  transition: all .5s ease-in-out;
+
+#bar1 {
+  transform: translateY(-4px);
 }
-.menu-btn-burger::before {
-  transform: translateY(-16px);
+
+#bar3 {
+  transform: translateY(4px);
 }
-.menu-btn-burger::after {
-  transform: translateY(16px);
+
+.nav {
+  transition: 0.3s ease;
+  display: none;
 }
-.burguer-menu{
-  transition: all .5s ease-in-out;
+
+.nav ul {
+  padding: 0 0em;
 }
-/* ANIMATION */
-.mobile-menu.open .menu-btn-burger {
-  transform: translateX(-50px);
-  background: transparent;
-  box-shadow: none;
+
+.nav li {
+  list-style: none;
+  padding: 0.5em 0;
 }
-.mobile-menu.open .menu-btn-burger::before {
-  transform: rotate(45deg) translate(35px, -35px);
+
+.nav li a {
+  color: white;
+  font-size: 1.8rem;
+  text-decoration: none;
 }
-.mobile-menu.open .menu-btn-burger::after {
-  transform: rotate(-45deg) translate(35px, 35px);
+
+.nav li a:hover {
+  font-weight: bold;
+}
+
+.menu-bg, #menu {
+  top: 0;
+  right: 1em;
+  position: fixed;
+}
+
+.menu-bg {
+  z-index: 3;
+  width: 0;
+  height: 0;
+  margin: 7em 0 3em 3em;
+  background: radial-gradient(circle, #dc059c, #DC052D,#4d05dc);
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.change {
+  display: block;
+}
+
+.change .bar {
+  background-color: white;
+}
+
+.change #bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+  opacity: 0;
+}
+
+.change #bar3 {
+  transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg {
+  width: 36em;
+  height: 36em;
+  transform: translate(60%,-30%);
 }
