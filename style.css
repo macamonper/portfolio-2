@@ -35,6 +35,10 @@ select {
 .row {
   display: flex;
 }
+.column{
+  display: flex;
+  flex-direction: column;
+}
 .align-right {
   justify-content: right;
 }
@@ -58,6 +62,9 @@ ul > li {
 }
 .hidden {
   display: none;
+}
+.hidden {
+  visibility: hidden;
 }
 
 @media (prefers-reduced-motion: reduce) {

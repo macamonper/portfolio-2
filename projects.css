@@ -1,3 +1,8 @@
+#projects{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .project-card {
   width: 18em;
   height: 10em;
@@ -64,4 +69,35 @@
     #5f5050,
     rgb(87, 73, 95)
   ) !important;
+}
+
+.social-media{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.social-media h3{
+  margin-top:1em;
+  text-align: center;
+}
+
+.social-media  a{
+  margin-top: 0.5em;
+  color: #fff;
+  font-size: 2rem;
+
+}
+.social-media a :hover{
+    color: transparent;
+  background-image: linear-gradient(
+    to left,
+    #710bff,
+    #03560f,
+    rgb(41, 176, 200)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 2em;
+
 }
