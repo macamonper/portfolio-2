@@ -1,5 +1,9 @@
-const menuOnClick = () => {
-  document.getElementById("menu-bar").classList.toggle("change");
-  document.getElementById("nav").classList.toggle("change");
-  document.getElementById("menu-bg").classList.toggle("change-bg");
-}
+const menuBar = document.getElementById("menu-bar");
+const nav = document.getElementById("nav");
+const menuBg = document.getElementById("menu-bg");
+
+menuBar.onclick = () => {
+  menuBar.classList.toggle("change");
+  nav.classList.toggle("change");
+  menuBg.classList.toggle("change-bg");
+};

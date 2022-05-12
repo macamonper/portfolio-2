@@ -1,5 +1,4 @@
 .project-card {
-  
   width: 18em;
   height: 10em;
   overflow: hidden;
@@ -14,8 +13,7 @@
   -webkit-backdrop-filter: blur(5.3px);
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   border-left: 1px solid rgba(255, 255, 255, 0.3);
-  transition: transform .5s ease-in-out;
-
+  transition: transform 0.5s ease-in-out;
 }
 
 .project-card img {
@@ -48,13 +46,14 @@
   -webkit-background-clip: text;
   animation: animate 6s linear infinite;
   background-size: 500%;
-position: absolute;
-margin-left: auto;
-margin-right: auto;
-left: 0;
-right: 0;
-top: 35%;
-text-align: center;}
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 35%;
+  text-align: center;
+}
 
 .font-change {
   background-image: linear-gradient(
@@ -66,4 +65,3 @@ text-align: center;}
     rgb(87, 73, 95)
   ) !important;
 }
-
