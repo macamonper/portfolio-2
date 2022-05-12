@@ -27,17 +27,13 @@
 }
 
 .nav {
-  transition: 0.3s ease;
+  transition: 0.5s ease;
   display: none;
-}
-
-.nav ul {
-  padding: 0 0em;
 }
 
 .nav li {
   list-style: none;
-  padding: 0.5em 0;
+  padding: 0.5em 0em;
 }
 
 .nav li a {
