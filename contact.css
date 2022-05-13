@@ -1,13 +1,9 @@
 form {
-  width: 90%;
   display: flex;
   flex-direction: column;
-  padding: 2em;
-  background-color: rgb(21, 24, 42);
-  border-radius: 4px;
-  margin: 1em;
+width: 100%;
 }
-form a {
+#contact-form  {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 2rem;
@@ -22,6 +18,7 @@ form a {
     #f49393
   );
   -webkit-background-clip: text;
+  background-clip: text;
   animation: animate 6s linear infinite;
   background-size: 500%;
 }

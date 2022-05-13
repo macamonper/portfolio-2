@@ -1,15 +1,14 @@
 .divider {
   height: 0.6px;
-  background: #000;
   background: -webkit-linear-gradient(
     left,
     rgb(171, 48, 128) 0%,
     rgb(164, 14, 178) 50%,
     rgb(255, 255, 255) 100%
-  );
+    );
+    background: #000;
 }
 .divider.light {
-  background: rgb(156, 33, 80);
   background: -webkit-linear-gradient(
     left,
     rgb(250, 239, 239) #f8d9d9,
@@ -18,7 +17,8 @@
     #ffbe0b,
     50%,
     rgb(167, 34, 34) 100%
-  );
+    );
+    background: rgb(156, 33, 80);
 }
 
 .divider.light:before {

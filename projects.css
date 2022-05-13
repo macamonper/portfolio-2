@@ -14,8 +14,8 @@
   background: rgba(255, 255, 255, 0.04);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(62, 59, 59, 0.44);
-  backdrop-filter: blur(5.3px);
   -webkit-backdrop-filter: blur(5.3px);
+  backdrop-filter: blur(5.3px);
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   border-left: 1px solid rgba(255, 255, 255, 0.3);
   transition: transform 0.5s ease-in-out;
@@ -49,6 +49,7 @@
     #f49393
   );
   -webkit-background-clip: text;
+  background-clip: text;
   animation: animate 6s linear infinite;
   background-size: 500%;
   position: absolute;
